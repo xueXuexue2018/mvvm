@@ -15,6 +15,10 @@
 		1A5B41F720F07ACB0052E0A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B41F620F07ACB0052E0A7 /* main.m */; };
 		1A5B420120F07ACB0052E0A7 /* MVVVMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B420020F07ACB0052E0A7 /* MVVVMTests.m */; };
 		1A5B420C20F07ACB0052E0A7 /* MVVVMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B420B20F07ACB0052E0A7 /* MVVVMUITests.m */; };
+		1A5B421B20F07B640052E0A7 /* HWHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B421A20F07B640052E0A7 /* HWHeaderView.m */; };
+		1A5B422120F07BE50052E0A7 /* HWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B422020F07BE50052E0A7 /* HWTableViewCell.m */; };
+		1A5B422520F07ED20052E0A7 /* HWCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B421D20F07BD20052E0A7 /* HWCellViewModel.m */; };
+		1A5B422620F07EDD0052E0A7 /* HWCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B422320F07D610052E0A7 /* HWCellModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		1A5B420720F07ACB0052E0A7 /* MVVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5B420B20F07ACB0052E0A7 /* MVVVMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVVMUITests.m; sourceTree = "<group>"; };
 		1A5B420D20F07ACB0052E0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5B421920F07B640052E0A7 /* HWHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWHeaderView.h; sourceTree = "<group>"; };
+		1A5B421A20F07B640052E0A7 /* HWHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWHeaderView.m; sourceTree = "<group>"; };
+		1A5B421C20F07BD20052E0A7 /* HWCellViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWCellViewModel.h; sourceTree = "<group>"; };
+		1A5B421D20F07BD20052E0A7 /* HWCellViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWCellViewModel.m; sourceTree = "<group>"; };
+		1A5B421F20F07BE50052E0A7 /* HWTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWTableViewCell.h; sourceTree = "<group>"; };
+		1A5B422020F07BE50052E0A7 /* HWTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWTableViewCell.m; sourceTree = "<group>"; };
+		1A5B422220F07D610052E0A7 /* HWCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWCellModel.h; sourceTree = "<group>"; };
+		1A5B422320F07D610052E0A7 /* HWCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWCellModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				1A5B41E820F07ACB0052E0A7 /* AppDelegate.m */,
 				1A5B41EA20F07ACB0052E0A7 /* ViewController.h */,
 				1A5B41EB20F07ACB0052E0A7 /* ViewController.m */,
+				1A5B421920F07B640052E0A7 /* HWHeaderView.h */,
+				1A5B421A20F07B640052E0A7 /* HWHeaderView.m */,
+				1A5B421C20F07BD20052E0A7 /* HWCellViewModel.h */,
+				1A5B421D20F07BD20052E0A7 /* HWCellViewModel.m */,
+				1A5B422220F07D610052E0A7 /* HWCellModel.h */,
+				1A5B422320F07D610052E0A7 /* HWCellModel.m */,
+				1A5B421F20F07BE50052E0A7 /* HWTableViewCell.h */,
+				1A5B422020F07BE50052E0A7 /* HWTableViewCell.m */,
 				1A5B41ED20F07ACB0052E0A7 /* Main.storyboard */,
 				1A5B41F020F07ACB0052E0A7 /* Assets.xcassets */,
 				1A5B41F220F07ACB0052E0A7 /* LaunchScreen.storyboard */,
@@ -265,7 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A5B422620F07EDD0052E0A7 /* HWCellModel.m in Sources */,
+				1A5B422520F07ED20052E0A7 /* HWCellViewModel.m in Sources */,
+				1A5B421B20F07B640052E0A7 /* HWHeaderView.m in Sources */,
 				1A5B41EC20F07ACB0052E0A7 /* ViewController.m in Sources */,
+				1A5B422120F07BE50052E0A7 /* HWTableViewCell.m in Sources */,
 				1A5B41F720F07ACB0052E0A7 /* main.m in Sources */,
 				1A5B41E920F07ACB0052E0A7 /* AppDelegate.m in Sources */,
 			);
